@@ -1,0 +1,2 @@
+add_executable(ORBextractor_test ORBextractor_test.cpp)
+target_link_libraries(ORBextractor_test unit_test_lib ${THIRD_PARTY_LIBS})
